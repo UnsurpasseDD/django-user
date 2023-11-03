@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<button>{{ flatpage.content }}</button>
+<hr>
+<h6>Image Gallery</h6>
+<img src="image_1.png" alt=" ">
+<h4>{{ flatpage.content }}</h4>
+<hr>
+{% endblock content %}
